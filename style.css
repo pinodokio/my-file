@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.stage-one {
+    background-image: url(img/dark\ atmo.jpg!d);
+    background-size: cover;
+}
+
+
+.stage-two {
+    background-image: url(img/light\ atmo.jpg);
+    background-size: cover;
+}
+
+ 
+
+.stage-one,
+.stage-two {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+  p  {
+    font-size: 75px;
+    color: aliceblue;
+    font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+ 
+
+
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        
+    }
+
+    p {
+       font-size: 25px;
+    }
+}
+
+
+
+.saske {
+    width: 380px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.naruto {
+    width: 330px;
+    height: auto;
+}
+
+#nar {
+    color: rgb(197, 92, 7);
+}
+
+.stage-one,
+.stage-two {
+    width: 100%;
+}
